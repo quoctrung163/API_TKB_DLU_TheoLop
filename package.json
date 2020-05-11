@@ -1,0 +1,24 @@
+{
+  "name": "gethtml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "buivanha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "crawler": "^1.2.1",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "html-table-to-json": "^1.0.0",
+    "request": "^2.88.2",
+    "tabletojson": "2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
